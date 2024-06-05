@@ -1,0 +1,40 @@
+body {
+    text-align: center;
+    background-image: url('18300.jpg'); 
+    background-size: cover; 
+}
+
+video {
+    width: 0px;
+    height: 0px;
+}
+
+table {
+    width: auto;
+    margin: auto;
+    border-collapse: collapse; 
+}
+
+tr, td {
+    border: 1px solid #ddd; 
+    text-align: center;
+    padding: 8px; 
+}
+
+tr:hover {
+    background-color: #f5f5f5; 
+}
+
+.mouse {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+.mirror {
+    transform: scaleX(-1);
+}
+
+.box-shadow {
+    box-shadow: 2px 2px 5px #888888; 
+}
